@@ -12,7 +12,7 @@
 #include "../include/BS_thread_pool.hpp"  // Make sure this header is available in your project
 
 #define CHUNK_SIZE 1000000   // Numbers per chunk
-#define NUMBERS_TO_GENERATE 2000000000 // Total random numbers (e.g., ~8GB of 32-bit ints)
+#define NUMBERS_TO_GENERATE 250000000 // Total random numbers (e.g., ~8GB of 32-bit ints)
 
 #define FILE_NAME "large_random_numbers.txt"
 #define SORTED_FILE "sorted_large_random_numbers.txt"
