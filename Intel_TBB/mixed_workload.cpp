@@ -7,7 +7,7 @@
 #include <chrono>
 
 #define CHUNK_SIZE 1000000   // Numbers to sort per chunk (around 4MB for 4-byte integers)
-#define NUMBERS_TO_GENERATE 2000000000 // 8GB of integers (2 billion random numbers)
+#define NUMBERS_TO_GENERATE 250000000 // 8GB of integers (2 billion random numbers)
 
 #define FILE_NAME "large_random_numbers.txt"
 #define SORTED_FILE "sorted_large_random_numbers.txt"
