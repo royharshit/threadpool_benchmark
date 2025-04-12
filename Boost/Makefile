@@ -1,7 +1,7 @@
 # Compiler and flags
 CXX = g++
 CXXFLAGS = -std=c++11
-LDLIBS = -ltbb
+LDLIBS = -lboost_system -lboost_thread
 
 # Source files and corresponding executables
 SOURCES = io_workload.cpp matrix_mul.cpp os_scheduling.cpp thread_overhead.cpp mixed_workload.cpp
