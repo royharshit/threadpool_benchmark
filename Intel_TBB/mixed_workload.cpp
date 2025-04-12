@@ -153,7 +153,7 @@ int main(int argc, char* argv[]) {
     printf("Sorted all chunks in parallel.\n");
 
     // Step 4: Merge the sorted chunks into the final sorted file
-    merge_sorted_chunks();
+    //merge_sorted_chunks();
     printf("Merged sorted chunks into the final sorted file.\n");
 
     return 0;
