@@ -29,17 +29,29 @@ mixed_workload: mixed_workload.cpp
 run: all
 	@echo "Running io_workload:"
 	./io_workload 1
+	./io_workload 4
 	./io_workload 8
-	./io_workload 16
-	./io_workload 42
+	./io_workload 15
 	@echo "Running matrix_mul:"
-	./matrix_mul 16
+	./matrix_mul 1
+	./matrix_mul 4
+	./matrix_mul 8
+	./matrix_mul 15
 	@echo "Running os_scheduling:"
-	./os_scheduling 16
+	./os_scheduling 1
+	./os_scheduling 4
+	./os_scheduling 8
+	./os_scheduling 15
 	@echo "Running thread_overhead:"
-	./thread_overhead 16
+	./thread_overhead 1
+	./thread_overhead 4
+	./thread_overhead 8
+	./thread_overhead 15
 	@echo "Running mixed_workload:"
-	./mixed_workload 16
+	./mixed_workload 1
+	./mixed_workload 4
+	./mixed_workload 8
+	./mixed_workload 15
 
 # Clean up
 clean:
