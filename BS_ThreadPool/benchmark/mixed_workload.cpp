@@ -165,7 +165,7 @@ int main(int argc, char* argv[]) {
     std::cout << "Time passed for parallel sorting: " << duration_ms << " ms\n";
 
     // Step 5: Merge sorted chunks
-    merge_sorted_chunks();
+    //merge_sorted_chunks();
     std::cout << "Merged all sorted chunks into final sorted file.\n";
 
     return 0;
