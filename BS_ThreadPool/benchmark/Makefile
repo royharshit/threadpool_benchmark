@@ -27,15 +27,15 @@ mixed_workload: mixed_workload.cpp
 # Run all executables sequentially
 run: all
 	@echo "Running io_workload:"
-	./io_workload
+	./io_workload 6
 	@echo "Running matrix_mul:"
-	./matrix_mul
+	./matrix_mul 6
 	@echo "Running os_scheduling:"
-	./os_scheduling
+	./os_scheduling 6
 	@echo "Running thread_overhead:"
-	./thread_overhead
+	./thread_overhead 6
 	@echo "Running mixed_workload:"
-	./mixed_workload
+	./mixed_workload 6
 
 # Clean up
 clean:

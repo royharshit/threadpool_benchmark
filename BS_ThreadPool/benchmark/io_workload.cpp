@@ -5,6 +5,7 @@
 #include <string>
 #include <chrono>
 #include <future>
+#include <cstdlib>
 
 constexpr int NUM_TASKS = 50;
 constexpr int THREAD_POOL_SIZE = 6;
@@ -33,8 +34,8 @@ void processFile(int id) {
     }
 }
 
-int main() {
-    BS::thread_pool pool(THREAD_POOL_SIZE);
+int main(int argc, char* argv[]) {
+    BS::thread_pool pool(std::atoi(argv[1]));
     std::vector<std::future<void>> futures;
 
     // Measure total execution time

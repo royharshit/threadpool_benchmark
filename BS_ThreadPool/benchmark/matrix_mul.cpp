@@ -4,6 +4,7 @@
 #include <iostream>               // std::cout
 #include <random>                // std::mt19937, std::uniform_int_distribution
 #include <vector>                 // std::vector
+#include <cstdlib>
 
 constexpr int MATRIX_SIZE = 1000;
 constexpr int NUM_THREADS = 24;
@@ -27,7 +28,7 @@ void multiply_rows(const std::vector<std::vector<int>>& A,
     }
 }
 
-int main()
+int main(int argc, char* argv[])
 {
     // Initialize matrices
     std::vector<std::vector<int>> A(MATRIX_SIZE, std::vector<int>(MATRIX_SIZE));
@@ -46,7 +47,7 @@ int main()
         }
     }
 
-    BS::thread_pool pool(NUM_THREADS);
+    BS::thread_pool pool(std::atoi(argv[1]));
     std::vector<std::future<void>> futures;
 
     const auto start = std::chrono::high_resolution_clock::now();

@@ -3,6 +3,7 @@
 #include <vector>
 #include <future>
 #include "../include/BS_thread_pool.hpp"  // Make sure this header is available
+#include <cstdlib>
 
 // A simple no-op task
 void no_op_task(int) {
@@ -34,10 +35,10 @@ double calculate_thread_pool_overhead_with_bs(size_t num_threads) {
     return duration.count();  // Return time in seconds
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     size_t num_threads = 12;
 
-    double overhead_time = calculate_thread_pool_overhead_with_bs(num_threads);
+    double overhead_time = calculate_thread_pool_overhead_with_bs(std::atoi(argv[1]));
     std::cout << "Thread pool overhead time (with " << num_threads << " threads): "
               << overhead_time << " seconds" << std::endl;
 

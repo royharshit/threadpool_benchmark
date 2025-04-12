@@ -8,6 +8,7 @@
 #include <chrono>
 #include <vector>
 #include <future>
+#include <cstdlib>
 #include "../include/BS_thread_pool.hpp"  // Make sure this header is available in your project
 
 #define CHUNK_SIZE 1000000   // Numbers per chunk
@@ -134,7 +135,7 @@ void merge_sorted_chunks() {
     fclose(sorted_file);
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     // Step 1: Generate random numbers file
     generate_large_file();
     std::cout << "Generated large random number file.\n";
@@ -144,7 +145,7 @@ int main() {
     int num_chunks = NUMBERS_TO_GENERATE / CHUNK_SIZE;
 
     // Step 2: Initialize thread pool with desired number of threads
-    BS::thread_pool pool(std::thread::hardware_concurrency());  // or specify fixed thread count
+    BS::thread_pool pool(std::atoi(argv[1]));  // or specify fixed thread count
     std::vector<std::future<void>> futures;
 
     // Step 3: Submit sorting tasks
