@@ -1,7 +1,6 @@
 # Compiler and flags
 CXX = g++
-CXXFLAGS = -std=c++11
-LDLIBS = -ltbb
+CXXFLAGS = -std=c++20
 
 # Source files and corresponding executables
 SOURCES = io_workload.cpp matrix_mul.cpp os_scheduling.cpp thread_overhead.cpp mixed_workload.cpp
@@ -11,19 +10,19 @@ EXECUTABLES = io_workload matrix_mul os_scheduling thread_overhead mixed_workloa
 all: $(EXECUTABLES)
 
 io_workload: io_workload.cpp
-	$(CXX) $(CXXFLAGS) -o $@ $< $(LDLIBS)
+	$(CXX) $(CXXFLAGS) -o $@ $<
 
 matrix_mul: matrix_mul.cpp
-	$(CXX) $(CXXFLAGS) -o $@ $< $(LDLIBS)
+	$(CXX) $(CXXFLAGS) -o $@ $<
 
 os_scheduling: os_scheduling.cpp
-	$(CXX) $(CXXFLAGS) -o $@ $< $(LDLIBS)
+	$(CXX) $(CXXFLAGS) -o $@ $<
 
 thread_overhead: thread_overhead.cpp
-	$(CXX) $(CXXFLAGS) -o $@ $< $(LDLIBS)
+	$(CXX) $(CXXFLAGS) -o $@ $<
 
 mixed_workload: mixed_workload.cpp
-	$(CXX) $(CXXFLAGS) -o $@ $< $(LDLIBS)
+	$(CXX) $(CXXFLAGS) -o $@ $<
 
 # Run all executables sequentially
 run: all
