@@ -42,6 +42,7 @@ run: all
 clean:
 	rm -f $(EXECUTABLES)
 	rm -f chunk_*
+	rm -f file_*
 	rm -f large_random_numbers.txt
 	rm -f sorted_large_random_numbers.txt
 	rm -f output_file.dat

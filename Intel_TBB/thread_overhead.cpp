@@ -1,6 +1,7 @@
 #include <tbb/tbb.h>
 #include <iostream>
 #include <chrono>
+#include <cstdio>
 
 // A simple no-op function to simulate minimal workload (just to measure thread overhead)
 void no_op_task(int) {
@@ -30,12 +31,11 @@ double calculate_thread_pool_overhead_with_tbb(size_t num_threads) {
     return duration.count(); // Return time in seconds
 }
 
-int main() {
-    size_t num_threads = 12;  // Number of threads in the task arena
+int main(int argc, char* argv[]) {
 
     // Calculate the thread pool overhead using TBB and output the result
-    double overhead_time = calculate_thread_pool_overhead_with_tbb(num_threads);
-    std::cout << "Thread pool overhead time (with " << num_threads << " threads): " 
+    double overhead_time = calculate_thread_pool_overhead_with_tbb(std::atoi(argv[1]));
+    std::cout << "Thread pool overhead time (with " << std::atoi(argv[1]) << " threads): " 
               << overhead_time << " seconds" << std::endl;
 
     return 0;

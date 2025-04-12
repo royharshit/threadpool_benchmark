@@ -130,14 +130,12 @@ void merge_sorted_chunks() {
     fclose(sorted_file);
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     // Step 1: Generate the large file with random numbers
     generate_large_file();
     printf("Generated large random number file.\n");
 
-    // Set the number of threads in the task arena
-    const int num_threads = 24;
-    tbb::task_arena arena(num_threads);
+    tbb::task_arena arena(std::atoi(argv[1]));
 
     auto start = std::chrono::high_resolution_clock::now();
 

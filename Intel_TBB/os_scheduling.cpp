@@ -68,7 +68,7 @@ void io_bound_task(int id, const std::string& filename) {
            duration.count());
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     const int num_tasks = 10;
     const int half_cpu_bound = num_tasks / 2;
     const int half_io_bound = num_tasks / 2;
@@ -90,8 +90,7 @@ int main() {
     }
 
     // Step 2: Define the number of threads in the task arena
-    int num_threads = 5; // Adjust the number of threads here
-    tbb::task_arena arena(num_threads);    // Step 3: Use the task arena to manage the execution of tasks
+    tbb::task_arena arena(std::atoi(argv[1]));    // Step 3: Use the task arena to manage the execution of tasks
     arena.execute([&]() {
         // Using parallel_for to manage both CPU-bound and I/O-bound tasks
 
