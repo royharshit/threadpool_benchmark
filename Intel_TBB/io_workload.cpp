@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 #include <chrono>
+#include <cstdlib>
 
 constexpr int NUM_TASKS = 50;
 constexpr int THREAD_POOL_SIZE = 6;
@@ -32,9 +33,9 @@ void processFile(int id) {
     }
 }
 
-int main() {
+int main(int argc, char* argv[]) {
 
-    tbb::task_arena arena(THREAD_POOL_SIZE);
+    tbb::task_arena arena(std::atoi(argv[1]));
 
     std::vector<int> taskIDs(NUM_TASKS);
     for (int i = 0; i < NUM_TASKS; ++i) {

@@ -3,6 +3,7 @@
 #include <random>
 #include <tbb/tbb.h>
 #include <chrono> 
+#include <cstdlib>
 
 const int MATRIX_SIZE = 1000; // Size of the matrices (1000x1000 for high workload)
 
@@ -17,7 +18,7 @@ void matrix_multiply(const std::vector<std::vector<int>>& A, const std::vector<s
     }
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     // Initialize the matrices A, B, and C
     std::vector<std::vector<int>> A(MATRIX_SIZE, std::vector<int>(MATRIX_SIZE));
     std::vector<std::vector<int>> B(MATRIX_SIZE, std::vector<int>(MATRIX_SIZE));
@@ -37,8 +38,7 @@ int main() {
     }
 
     // Set the number of threads in the task arena
-    const int num_threads = 24;
-    tbb::task_arena arena(num_threads);
+    tbb::task_arena arena(std::atoi(argv[1]));
 
     auto start = std::chrono::high_resolution_clock::now();
 
