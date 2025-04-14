@@ -1,0 +1,743 @@
+Running io_workload:
+./io_workload 1;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Task 0 created a 100MB file.
+Task 0 successfully read the 100MB file.
+Task 1 created a 100MB file.
+Task 1 successfully read the 100MB file.
+Task 2 created a 100MB file.
+Task 2 successfully read the 100MB file.
+Task 3 created a 100MB file.
+Task 3 successfully read the 100MB file.
+Task 4 created a 100MB file.
+Task 4 successfully read the 100MB file.
+Task 5 created a 100MB file.
+Task 5 successfully read the 100MB file.
+Task 6 created a 100MB file.
+Task 6 successfully read the 100MB file.
+Task 7 created a 100MB file.
+Task 7 successfully read the 100MB file.
+Task 8 created a 100MB file.
+Task 8 successfully read the 100MB file.
+Task 9 created a 100MB file.
+Task 9 successfully read the 100MB file.
+Task 10 created a 100MB file.
+Task 10 successfully read the 100MB file.
+Task 11 created a 100MB file.
+Task 11 successfully read the 100MB file.
+Task 12 created a 100MB file.
+Task 12 successfully read the 100MB file.
+Task 13 created a 100MB file.
+Task 13 successfully read the 100MB file.
+Task 14 created a 100MB file.
+Task 14 successfully read the 100MB file.
+Task 15 created a 100MB file.
+Task 15 successfully read the 100MB file.
+Task 16 created a 100MB file.
+Task 16 successfully read the 100MB file.
+Task 17 created a 100MB file.
+Task 17 successfully read the 100MB file.
+Task 18 created a 100MB file.
+Task 18 successfully read the 100MB file.
+Task 19 created a 100MB file.
+Task 19 successfully read the 100MB file.
+Task 20 created a 100MB file.
+Task 20 successfully read the 100MB file.
+Task 21 created a 100MB file.
+Task 21 successfully read the 100MB file.
+Task 22 created a 100MB file.
+Task 22 successfully read the 100MB file.
+Task 23 created a 100MB file.
+Task 23 successfully read the 100MB file.
+Task 24 created a 100MB file.
+Task 24 successfully read the 100MB file.
+Task 25 created a 100MB file.
+Task 25 successfully read the 100MB file.
+Task 26 created a 100MB file.
+Task 26 successfully read the 100MB file.
+Task 27 created a 100MB file.
+Task 27 successfully read the 100MB file.
+Task 28 created a 100MB file.
+Task 28 successfully read the 100MB file.
+Task 29 created a 100MB file.
+Task 29 successfully read the 100MB file.
+Task 30 created a 100MB file.
+Task 30 successfully read the 100MB file.
+Task 31 created a 100MB file.
+Task 31 successfully read the 100MB file.
+Task 32 created a 100MB file.
+Task 32 successfully read the 100MB file.
+Task 33 created a 100MB file.
+Task 33 successfully read the 100MB file.
+Task 34 created a 100MB file.
+Task 34 successfully read the 100MB file.
+Task 35 created a 100MB file.
+Task 35 successfully read the 100MB file.
+Task 36 created a 100MB file.
+Task 36 successfully read the 100MB file.
+Task 37 created a 100MB file.
+Task 37 successfully read the 100MB file.
+Task 38 created a 100MB file.
+Task 38 successfully read the 100MB file.
+Task 39 created a 100MB file.
+Task 39 successfully read the 100MB file.
+Task 40 created a 100MB file.
+Task 40 successfully read the 100MB file.
+Task 41 created a 100MB file.
+Task 41 successfully read the 100MB file.
+Task 42 created a 100MB file.
+Task 42 successfully read the 100MB file.
+Task 43 created a 100MB file.
+Task 43 successfully read the 100MB file.
+Task 44 created a 100MB file.
+Task 44 successfully read the 100MB file.
+Task 45 created a 100MB file.
+Task 45 successfully read the 100MB file.
+Task 46 created a 100MB file.
+Task 46 successfully read the 100MB file.
+Task 47 created a 100MB file.
+Task 47 successfully read the 100MB file.
+Task 48 created a 100MB file.
+Task 48 successfully read the 100MB file.
+Task 49 created a 100MB file.
+Task 49 successfully read the 100MB file.
+Total execution time with BS::thread_pool: 14233 ms.
+./io_workload 4;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Task 3 created a 100MB file.
+Task 1 created a 100MB file.
+Task 2 created a 100MB file.
+Task 0 created a 100MB file.
+Task 3 successfully read the 100MB file.
+Task 1 successfully read the 100MB file.
+Task 0 successfully read the 100MB file.
+Task 2 successfully read the 100MB file.
+Task 5 created a 100MB file.
+Task 4 created a 100MB file.
+Task 7 created a 100MB file.
+Task 6 created a 100MB file.
+Task 4 successfully read the 100MB file.
+Task 5 successfully read the 100MB file.
+Task 6 successfully read the 100MB file.
+Task 7 successfully read the 100MB file.
+Task 8 created a 100MB file.
+Task 9 created a 100MB file.
+Task 11 created a 100MB file.
+Task 10 created a 100MB file.
+Task 8 successfully read the 100MB file.
+Task 9 successfully read the 100MB file.
+Task 10 successfully read the 100MB file.
+Task 11 successfully read the 100MB file.
+Task 12 created a 100MB file.
+Task 13 created a 100MB file.
+Task 14 created a 100MB file.
+Task 15 created a 100MB file.
+Task 12 successfully read the 100MB file.
+Task 13 successfully read the 100MB file.
+Task 14 successfully read the 100MB file.
+Task 15 successfully read the 100MB file.
+Task 16 created a 100MB file.
+Task 17 created a 100MB file.
+Task 19 created a 100MB file.
+Task 18 created a 100MB file.
+Task 16 successfully read the 100MB file.
+Task 17 successfully read the 100MB file.
+Task 18 successfully read the 100MB file.
+Task 19 successfully read the 100MB file.
+Task 20 created a 100MB file.
+Task 21 created a 100MB file.
+Task 23 created a 100MB file.
+Task 22 created a 100MB file.
+Task 20 successfully read the 100MB file.
+Task 21 successfully read the 100MB file.
+Task 22 successfully read the 100MB file.
+Task 23 successfully read the 100MB file.
+Task 27 created a 100MB file.
+Task 26 created a 100MB file.
+Task 25 created a 100MB file.
+Task 24 created a 100MB file.
+Task 24 successfully read the 100MB file.
+Task 25 successfully read the 100MB file.
+Task 26 successfully read the 100MB file.
+Task 27 successfully read the 100MB file.
+Task 28 created a 100MB file.
+Task 29 created a 100MB file.
+Task 31 created a 100MB file.
+Task 30 created a 100MB file.
+Task 29 successfully read the 100MB file.
+Task 28 successfully read the 100MB file.
+Task 30 successfully read the 100MB file.
+Task 31 successfully read the 100MB file.
+Task Task 3332 created a 100MB file.
+ created a 100MB file.
+Task 35 created a 100MB file.
+Task 34 created a 100MB file.
+Task 32 successfully read the 100MB file.
+Task 33 successfully read the 100MB file.
+Task 34 successfully read the 100MB file.
+Task 35 successfully read the 100MB file.
+Task 36 created a 100MB file.
+Task 37 created a 100MB file.
+Task 39 created a 100MB file.
+Task 38 created a 100MB file.
+Task 37 successfully read the 100MB file.
+Task 36 successfully read the 100MB file.
+Task 38 successfully read the 100MB file.
+Task 39 successfully read the 100MB file.
+Task 40 created a 100MB file.
+Task 41 created a 100MB file.
+Task 43 created a 100MB file.
+Task 42 created a 100MB file.
+Task Task 41 successfully read the 100MB file.
+40 successfully read the 100MB file.
+Task 42 successfully read the 100MB file.
+Task 43 successfully read the 100MB file.
+Task 44 created a 100MB file.
+Task 45 created a 100MB file.
+Task 47 created a 100MB file.
+Task 46 created a 100MB file.
+Task 44 successfully read the 100MB file.
+Task 45 successfully read the 100MB file.
+Task 46 successfully read the 100MB file.
+Task 47 successfully read the 100MB file.
+Task 48 created a 100MB file.
+Task 49 created a 100MB file.
+Task Task 4849 successfully read the 100MB file.
+ successfully read the 100MB file.
+Total execution time with BS::thread_pool: 4649 ms.
+./io_workload 8;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Task 4 created a 100MB file.
+Task 2 created a 100MB file.
+Task 0 created a 100MB file.
+Task 7 created a 100MB file.
+Task 1 created a 100MB file.
+Task 6 created a 100MB file.
+Task 5 created a 100MB file.
+Task 3 created a 100MB file.
+Task 2 successfully read the 100MB file.
+Task 3 successfully read the 100MB file.
+Task 0 successfully read the 100MB file.
+Task 4 successfully read the 100MB file.
+Task 7 successfully read the 100MB file.
+Task 6 successfully read the 100MB file.
+Task 5 successfully read the 100MB file.
+Task 1 successfully read the 100MB file.
+Task 10 created a 100MB file.
+Task 9 created a 100MB file.
+Task 8 created a 100MB file.
+Task 12 created a 100MB file.
+Task 13 created a 100MB file.
+Task 11 created a 100MB file.
+Task 14 created a 100MB file.
+Task 15 created a 100MB file.
+Task 9 successfully read the 100MB file.
+Task 8 successfully read the 100MB file.
+Task 10 successfully read the 100MB file.
+Task 12 successfully read the 100MB file.
+Task 13 successfully read the 100MB file.
+Task 15 successfully read the 100MB file.
+Task 11 successfully read the 100MB file.
+Task 14 successfully read the 100MB file.
+Task 18 created a 100MB file.
+Task 16 created a 100MB file.
+Task 17 created a 100MB file.
+Task 19 created a 100MB file.
+Task 20 created a 100MB file.
+Task 23 created a 100MB file.
+Task 22 created a 100MB file.
+Task 21 created a 100MB file.
+Task 19 successfully read the 100MB file.
+Task 20 successfully read the 100MB file.
+Task 23 successfully read the 100MB file.
+Task 18 successfully read the 100MB file.
+Task 17 successfully read the 100MB file.
+Task 16 successfully read the 100MB file.
+Task 21 successfully read the 100MB file.
+Task 22 successfully read the 100MB file.
+Task 29 created a 100MB file.
+Task 26 created a 100MB file.
+Task 27 created a 100MB file.
+Task 24 created a 100MB file.
+Task 25 created a 100MB file.
+Task 30 created a 100MB file.
+Task 28 created a 100MB file.
+Task 31 created a 100MB file.
+Task 30 successfully read the 100MB file.
+Task 25 successfully read the 100MB file.
+Task 29 successfully read the 100MB file.
+Task 31 successfully read the 100MB file.
+Task 26 successfully read the 100MB file.
+Task 28 successfully read the 100MB file.
+Task 27 successfully read the 100MB file.
+Task 24 successfully read the 100MB file.
+Task 36 created a 100MB file.
+Task 34 created a 100MB file.
+Task 32 created a 100MB file.
+Task 33 created a 100MB file.
+Task 38 created a 100MB file.
+Task 35 created a 100MB file.
+Task 39 created a 100MB file.
+Task 37 created a 100MB file.
+Task 32 successfully read the 100MB file.
+Task 33 successfully read the 100MB file.
+Task 37 successfully read the 100MB file.
+Task 35 successfully read the 100MB file.
+Task 34 successfully read the 100MB file.
+Task 36 successfully read the 100MB file.
+Task 39 successfully read the 100MB file.
+Task 38 successfully read the 100MB file.
+Task 45 created a 100MB file.
+Task 46 created a 100MB file.
+Task 44 created a 100MB file.
+Task 40 created a 100MB file.
+Task 41 created a 100MB file.
+Task 42 created a 100MB file.
+Task 47 created a 100MB file.
+Task 43 created a 100MB file.
+Task 40 successfully read the 100MB file.
+Task 41 successfully read the 100MB file.
+Task 42 successfully read the 100MB file.
+Task 45 successfully read the 100MB file.
+Task 46 successfully read the 100MB file.
+Task 44 successfully read the 100MB file.
+Task 43 successfully read the 100MB file.
+Task 47 successfully read the 100MB file.
+Task 49 created a 100MB file.
+Task 48 created a 100MB file.
+Task 48 successfully read the 100MB file.
+Task 49 successfully read the 100MB file.
+Total execution time with BS::thread_pool: 3131 ms.
+./io_workload 16;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Task 9 created a 100MB file.
+Task 10 created a 100MB file.
+Task 7 created a 100MB file.
+Task 13 created a 100MB file.
+Task 15 created a 100MB file.
+Task 12 created a 100MB file.
+Task 1 created a 100MB file.
+Task 8 created a 100MB file.
+Task 4 created a 100MB file.
+Task 5 created a 100MB file.
+Task 6 created a 100MB file.
+Task 0 created a 100MB file.
+Task 14 created a 100MB file.
+Task 3 created a 100MB file.
+Task 2 created a 100MB file.
+Task 11 created a 100MB file.
+Task 9 successfully read the 100MB file.
+Task Task 54 successfully read the 100MB file.
+ successfully read the 100MB file.
+Task 10 successfully read the 100MB file.
+Task 6 successfully read the 100MB file.
+Task 12 successfully read the 100MB file.
+Task 15 successfully read the 100MB file.
+Task 13 successfully read the 100MB file.
+Task 14 successfully read the 100MB file.
+Task 7 successfully read the 100MB file.
+Task 0 successfully read the 100MB file.
+Task 8 successfully read the 100MB file.
+Task 3 successfully read the 100MB file.
+Task 1 successfully read the 100MB file.
+Task 2 successfully read the 100MB file.
+Task 11 successfully read the 100MB file.
+Task 16 created a 100MB file.
+Task 18 created a 100MB file.
+Task 17 created a 100MB file.
+Task 21 created a 100MB file.
+Task 20 created a 100MB file.
+Task 19 created a 100MB file.
+Task 27 created a 100MB file.
+Task 24 created a 100MB file.
+Task 25 created a 100MB file.
+Task 29 created a 100MB file.
+Task 22 created a 100MB file.
+Task 28 created a 100MB file.
+Task 26 created a 100MB file.
+Task 23 created a 100MB file.
+Task 30 created a 100MB file.
+Task 31 created a 100MB file.
+Task Task 2321 successfully read the 100MB file.
+ successfully read the 100MB file.
+Task 26 successfully read the 100MB file.
+Task 27 successfully read the 100MB file.
+Task 28 successfully read the 100MB file.
+Task 29 successfully read the 100MB file.
+Task 16 successfully read the 100MB file.
+Task 18 successfully read the 100MB file.
+Task 17 successfully read the 100MB file.
+Task 20 successfully read the 100MB file.
+Task 19 successfully read the 100MB file.
+Task 22 successfully read the 100MB file.
+Task 24 successfully read the 100MB file.
+Task 25 successfully read the 100MB file.
+Task 30 successfully read the 100MB file.
+Task 31 successfully read the 100MB file.
+Task 32 created a 100MB file.
+Task 33 created a 100MB file.
+Task 35 created a 100MB file.
+Task 36 created a 100MB file.
+Task 34 created a 100MB file.
+Task 41 created a 100MB file.
+Task 44 created a 100MB file.
+Task 37 created a 100MB file.
+Task 38 created a 100MB file.
+Task 43 created a 100MB file.
+Task 45 created a 100MB file.
+Task 42 created a 100MB file.
+Task 40 created a 100MB file.
+Task 39 created a 100MB file.
+Task 46 created a 100MB file.
+Task 47 created a 100MB file.
+Task 36 successfully read the 100MB file.
+Task 35 successfully read the 100MB file.
+Task 32 successfully read the 100MB file.
+Task 34 successfully read the 100MB file.
+Task 41 successfully read the 100MB file.
+Task 37 successfully read the 100MB file.
+Task 44 successfully read the 100MB file.
+Task 47 successfully read the 100MB file.
+Task 45 successfully read the 100MB file.
+Task 42 successfully read the 100MB file.
+Task 43 successfully read the 100MB file.
+Task 40 successfully read the 100MB file.
+Task 38 successfully read the 100MB file.
+Task 39 successfully read the 100MB file.
+Task 46 successfully read the 100MB file.
+Task 33 successfully read the 100MB file.
+Task 49 created a 100MB file.
+Task 48 created a 100MB file.
+Task 49 successfully read the 100MB file.
+Task 48 successfully read the 100MB file.
+Total execution time with BS::thread_pool: 2544 ms.
+./io_workload 32;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Task 30 created a 100MB file.
+Task 0 created a 100MB file.
+Task 9 created a 100MB file.
+Task 12 created a 100MB file.
+Task 1 created a 100MB file.
+Task 14 created a 100MB file.
+Task 12 successfully read the 100MB file.
+Task 30 successfully read the 100MB file.
+Task 24 created a 100MB file.
+Task 15 created a 100MB file.
+Task 0 successfully read the 100MB file.
+Task 13 created a 100MB file.
+Task 28 created a 100MB file.
+Task 9 successfully read the 100MB file.
+Task 31 created a 100MB file.
+Task 1 successfully read the 100MB file.
+Task 20 created a 100MB file.
+Task 4 created a 100MB file.
+Task 6 created a 100MB file.
+Task 8 created a 100MB file.
+Task 19 created a 100MB file.
+Task 23 created a 100MB file.
+Task 7 created a 100MB file.
+Task 3 created a 100MB file.
+Task 18 created a 100MB file.
+Task 21 created a 100MB file.
+Task 17 created a 100MB file.
+Task 22 created a 100MB file.
+Task 29 created a 100MB file.
+Task 10 created a 100MB file.
+Task 2 created a 100MB file.
+Task 5 created a 100MB file.
+Task 27 created a 100MB file.
+Task 16 created a 100MB file.
+Task 25 created a 100MB file.
+Task 11 created a 100MB file.
+Task 26 created a 100MB file.
+Task 4 successfully read the 100MB file.
+Task 6 successfully read the 100MB file.
+Task 22 successfully read the 100MB file.
+Task 5 successfully read the 100MB file.
+Task 18 successfully read the 100MB file.
+Task 14 successfully read the 100MB file.
+Task 35 created a 100MB file.
+Task 31 successfully read the 100MB file.
+Task 2 successfully read the 100MB file.
+Task 24 successfully read the 100MB file.
+Task 15 successfully read the 100MB file.
+Task 23 successfully read the 100MB file.
+Task 10 successfully read the 100MB file.
+Task 11 successfully read the 100MB file.
+Task 21 successfully read the 100MB file.
+Task 13 successfully read the 100MB file.
+Task 27 successfully read the 100MB file.
+Task 7 successfully read the 100MB file.
+Task 25 successfully read the 100MB file.
+Task 33 created a 100MB file.
+Task 20 successfully read the 100MB file.
+Task 16 successfully read the 100MB file.
+Task 17 successfully read the 100MB file.
+Task 26 successfully read the 100MB file.
+Task 28 successfully read the 100MB file.
+Task 29 successfully read the 100MB file.
+Task 34 created a 100MB file.
+Task 3 successfully read the 100MB file.
+Task 19 successfully read the 100MB file.
+Task 32 created a 100MB file.
+Task 8 successfully read the 100MB file.
+Task 36 created a 100MB file.
+Task 35 successfully read the 100MB file.
+Task 34 successfully read the 100MB file.
+Task 32 successfully read the 100MB file.
+Task 36 successfully read the 100MB file.
+Task 33 successfully read the 100MB file.
+Task 39 created a 100MB file.
+Task 48 created a 100MB file.
+Task 40 created a 100MB file.
+Task 43 created a 100MB file.
+Task 39 successfully read the 100MB file.
+Task 49 created a 100MB file.
+Task 42 created a 100MB file.
+Task 45 created a 100MB file.
+Task 44 created a 100MB file.
+Task 37 created a 100MB file.
+Task 38 created a 100MB file.
+Task 41 created a 100MB file.
+Task 47 created a 100MB file.
+Task 46 created a 100MB file.
+Task 44 successfully read the 100MB file.
+Task 45 successfully read the 100MB file.
+Task 37 successfully read the 100MB file.
+Task 46 successfully read the 100MB file.
+Task 43 successfully read the 100MB file.
+Task 42 successfully read the 100MB file.
+Task 49 successfully read the 100MB file.
+Task 48 successfully read the 100MB file.
+Task 40 successfully read the 100MB file.
+Task 47 successfully read the 100MB file.
+Task 41 successfully read the 100MB file.
+Task 38 successfully read the 100MB file.
+Total execution time with BS::thread_pool: 1939 ms.
+./io_workload 64;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Task 42 created a 100MB file.
+Task 32 created a 100MB file.
+Task 42 successfully read the 100MB file.
+Task 32 successfully read the 100MB file.
+Task 13 created a 100MB file.
+Task 36 created a 100MB file.
+Task 13 successfully read the 100MB file.
+Task 21 created a 100MB file.
+Task 36 successfully read the 100MB file.
+Task 9 created a 100MB file.
+Task 49 created a 100MB file.
+Task 26 created a 100MB file.
+Task 25 created a 100MB file.
+Task 27 created a 100MB file.
+Task 22 created a 100MB file.
+Task 2 created a 100MB file.
+Task 4 created a 100MB file.
+Task 15 created a 100MB file.
+Task 5 created a 100MB file.
+Task 19 created a 100MB file.
+Task 39 created a 100MB file.
+Task 20 created a 100MB file.
+Task 38 created a 100MB file.
+Task 12 created a 100MB file.
+Task 16 created a 100MB file.
+Task 7 created a 100MB file.
+Task 43 created a 100MB file.
+Task 45 created a 100MB file.
+Task 24 created a 100MB file.
+Task 1 created a 100MB file.
+Task 29 created a 100MB file.
+Task 34 created a 100MB file.
+Task 28 created a 100MB file.
+Task 35 created a 100MB file.
+Task 3 created a 100MB file.
+Task 47 created a 100MB file.
+Task 46 created a 100MB file.
+Task 37 created a 100MB file.
+Task 10 created a 100MB file.
+Task 33 created a 100MB file.
+Task 18 created a 100MB file.
+Task 8 created a 100MB file.
+Task 17 created a 100MB file.
+Task 11 created a 100MB file.
+Task 14 created a 100MB file.
+Task 30 created a 100MB file.
+Task 0 created a 100MB file.
+Task 40 created a 100MB file.
+Task 48 created a 100MB file.
+Task 31 created a 100MB file.
+Task 41 created a 100MB file.
+Task 44 created a 100MB file.
+Task 6 created a 100MB file.
+Task 23 created a 100MB file.
+Task 21 successfully read the 100MB file.
+Task 49 successfully read the 100MB file.
+Task 9 successfully read the 100MB file.
+Task 3 successfully read the 100MB file.
+Task 20 successfully read the 100MB file.
+Task 26 successfully read the 100MB file.
+Task 4 successfully read the 100MB file.
+Task 45 successfully read the 100MB file.
+Task 40 successfully read the 100MB file.
+Task 30 successfully read the 100MB file.
+Task 48 successfully read the 100MB file.
+Task 25 successfully read the 100MB file.
+Task 29 successfully read the 100MB file.
+Task 38 successfully read the 100MB file.
+Task 33 successfully read the 100MB file.
+Task 47 successfully read the 100MB file.
+Task 11 successfully read the 100MB file.
+Task 23 successfully read the 100MB file.
+Task 27 successfully read the 100MB file.
+Task 18 successfully read the 100MB file.
+Task 22 successfully read the 100MB file.
+Task 10 successfully read the 100MB file.
+Task 5 successfully read the 100MB file.
+Task 2 successfully read the 100MB file.
+Task 1 successfully read the 100MB file.
+Task 43 successfully read the 100MB file.
+Task 0 successfully read the 100MB file.
+Task 12 successfully read the 100MB file.
+Task 46 successfully read the 100MB file.
+Task 35 successfully read the 100MB file.
+Task 17 successfully read the 100MB file.
+Task 39 successfully read the 100MB file.
+Task 7 successfully read the 100MB file.
+Task 44 successfully read the 100MB file.
+Task 19 successfully read the 100MB file.
+Task 14 successfully read the 100MB file.
+Task 8 successfully read the 100MB file.
+Task 41 successfully read the 100MB file.
+Task 37 successfully read the 100MB file.
+Task 34 successfully read the 100MB file.
+Task 24 successfully read the 100MB file.
+Task 28 successfully read the 100MB file.
+Task 15 successfully read the 100MB file.
+Task 16 successfully read the 100MB file.
+Task 31 successfully read the 100MB file.
+Task 6 successfully read the 100MB file.
+Total execution time with BS::thread_pool: 2103 ms.
+Running matrix_mul:
+./matrix_mul 1;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Time passed: 13743 milliseconds
+C[0][0] = 29956
+./matrix_mul 4;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Time passed: 3637 milliseconds
+C[0][0] = 31677
+./matrix_mul 8;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Time passed: 1946 milliseconds
+C[0][0] = 30039
+./matrix_mul 16;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Time passed: 1410 milliseconds
+C[0][0] = 30122
+./matrix_mul 32;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Time passed: 1162 milliseconds
+C[0][0] = 30325
+./matrix_mul 64;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Time passed: 1195 milliseconds
+C[0][0] = 30668
+Running os_scheduling:
+./os_scheduling 1;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+CPU Task 0 started at 1744496727127 ms, ended at 1744496745492 ms, duration: 18.364348 seconds.
+CPU Task 2 started at 1744496727127 ms, ended at 1744496745526 ms, duration: 18.398459 seconds.
+CPU Task 4 started at 1744496727128 ms, ended at 1744496745551 ms, duration: 18.423022 seconds.
+CPU Task 1 started at 1744496727127 ms, ended at 1744496745559 ms, duration: 18.431558 seconds.
+CPU Task 3 started at 1744496727128 ms, ended at 1744496745630 ms, duration: 18.502870 seconds.
+I/O Task 0 started at 1744496745494 ms, ended at 1744496757573 ms, duration: 12.079361 seconds.
+I/O Task 1 started at 1744496745528 ms, ended at 1744496757600 ms, duration: 12.071524 seconds.
+I/O Task 2 started at 1744496745553 ms, ended at 1744496757623 ms, duration: 12.069636 seconds.
+I/O Task 3 started at 1744496745561 ms, ended at 1744496757624 ms, duration: 12.063114 seconds.
+I/O Task 4 started at 1744496745633 ms, ended at 1744496757695 ms, duration: 12.062445 seconds.
+Total time: 36.1494 seconds.
+./os_scheduling 4;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+CPU Task 0 started at 1744496763463 ms, ended at 1744496781802 ms, duration: 18.338576 seconds.
+CPU Task 2 started at 1744496763463 ms, ended at 1744496781880 ms, duration: 18.416921 seconds.
+CPU Task 1 started at 1744496763463 ms, ended at 1744496782113 ms, duration: 18.649812 seconds.
+CPU Task 3 started at 1744496763463 ms, ended at 1744496782146 ms, duration: 18.682744 seconds.
+CPU Task 4 started at 1744496763463 ms, ended at 1744496782180 ms, duration: 18.716084 seconds.
+I/O Task 0 started at 1744496781804 ms, ended at 1744496793930 ms, duration: 12.126157 seconds.
+I/O Task 1 started at 1744496781883 ms, ended at 1744496793998 ms, duration: 12.115079 seconds.
+I/O Task 2 started at 1744496782116 ms, ended at 1744496794223 ms, duration: 12.107040 seconds.
+I/O Task 3 started at 1744496782149 ms, ended at 1744496794239 ms, duration: 12.090661 seconds.
+I/O Task 4 started at 1744496782182 ms, ended at 1744496794274 ms, duration: 12.092347 seconds.
+Total time: 36.3926 seconds.
+./os_scheduling 8;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+CPU Task 0 started at 1744496800557 ms, ended at 1744496818921 ms, duration: 18.363160 seconds.
+CPU Task 3 started at 1744496800557 ms, ended at 1744496818944 ms, duration: 18.386802 seconds.
+CPU Task 1 started at 1744496800557 ms, ended at 1744496819106 ms, duration: 18.548950 seconds.
+CPU Task 2 started at 1744496800557 ms, ended at 1744496819300 ms, duration: 18.742223 seconds.
+CPU Task 4 started at 1744496800557 ms, ended at 1744496819568 ms, duration: 19.010375 seconds.
+I/O Task 0 started at 1744496818923 ms, ended at 1744496831037 ms, duration: 12.114724 seconds.
+I/O Task 1 started at 1744496818947 ms, ended at 1744496831052 ms, duration: 12.105116 seconds.
+I/O Task 2 started at 1744496819109 ms, ended at 1744496831208 ms, duration: 12.099520 seconds.
+I/O Task 3 started at 1744496819302 ms, ended at 1744496831391 ms, duration: 12.089114 seconds.
+I/O Task 4 started at 1744496819570 ms, ended at 1744496831643 ms, duration: 12.073048 seconds.
+Total time: 37.1939 seconds.
+./os_scheduling 16;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+CPU Task 1 started at 1744496838168 ms, ended at 1744496856509 ms, duration: 18.341303 seconds.
+CPU Task 2 started at 1744496838168 ms, ended at 1744496856519 ms, duration: 18.351238 seconds.
+CPU Task 0 started at 1744496838168 ms, ended at 1744496856688 ms, duration: 18.520402 seconds.
+CPU Task 4 started at 1744496838168 ms, ended at 1744496856724 ms, duration: 18.556313 seconds.
+CPU Task 3 started at 1744496838168 ms, ended at 1744496856734 ms, duration: 18.566156 seconds.
+I/O Task 0 started at 1744496856511 ms, ended at 1744496868611 ms, duration: 12.099560 seconds.
+I/O Task 1 started at 1744496856522 ms, ended at 1744496868615 ms, duration: 12.093088 seconds.
+I/O Task 2 started at 1744496856691 ms, ended at 1744496868776 ms, duration: 12.085409 seconds.
+I/O Task 3 started at 1744496856727 ms, ended at 1744496868793 ms, duration: 12.066402 seconds.
+I/O Task 4 started at 1744496856737 ms, ended at 1744496868802 ms, duration: 12.065441 seconds.
+Total time: 36.2821 seconds.
+./os_scheduling 32;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+CPU Task 0 started at 1744496874629 ms, ended at 1744496893006 ms, duration: 18.377074 seconds.
+CPU Task 4 started at 1744496874629 ms, ended at 1744496893008 ms, duration: 18.378824 seconds.
+CPU Task 1 started at 1744496874629 ms, ended at 1744496893017 ms, duration: 18.387993 seconds.
+CPU Task 2 started at 1744496874629 ms, ended at 1744496893083 ms, duration: 18.453681 seconds.
+CPU Task 3 started at 1744496874629 ms, ended at 1744496893230 ms, duration: 18.601259 seconds.
+I/O Task 1 started at 1744496893010 ms, ended at 1744496905145 ms, duration: 12.134450 seconds.
+I/O Task 2 started at 1744496893019 ms, ended at 1744496905145 ms, duration: 12.125360 seconds.
+I/O Task 0 started at 1744496893008 ms, ended at 1744496905145 ms, duration: 12.136537 seconds.
+I/O Task 3 started at 1744496893085 ms, ended at 1744496905149 ms, duration: 12.063298 seconds.
+I/O Task 4 started at 1744496893233 ms, ended at 1744496905314 ms, duration: 12.081002 seconds.
+Total time: 36.3498 seconds.
+./os_scheduling 64;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+CPU Task 0 started at 1744496911070 ms, ended at 1744496929505 ms, duration: 18.435184 seconds.
+CPU Task 3 started at 1744496911070 ms, ended at 1744496929671 ms, duration: 18.601449 seconds.
+CPU Task 1 started at 1744496911070 ms, ended at 1744496929807 ms, duration: 18.737223 seconds.
+CPU Task 2 started at 1744496911070 ms, ended at 1744496929812 ms, duration: 18.742267 seconds.
+CPU Task 4 started at 1744496911070 ms, ended at 1744496929846 ms, duration: 18.775833 seconds.
+I/O Task 0 started at 1744496929507 ms, ended at 1744496941616 ms, duration: 12.108993 seconds.
+I/O Task 1 started at 1744496929674 ms, ended at 1744496941774 ms, duration: 12.100242 seconds.
+I/O Task 2 started at 1744496929810 ms, ended at 1744496941897 ms, duration: 12.087782 seconds.
+I/O Task 3 started at 1744496929815 ms, ended at 1744496941897 ms, duration: 12.082759 seconds.
+I/O Task 4 started at 1744496929848 ms, ended at 1744496941928 ms, duration: 12.079736 seconds.
+Total time: 36.4498 seconds.
+Running thread_overhead:
+./thread_overhead 1;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Thread pool overhead time (with 12 threads): 0.00391024 seconds
+./thread_overhead 4;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Thread pool overhead time (with 12 threads): 0.00781725 seconds
+./thread_overhead 8;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Thread pool overhead time (with 12 threads): 0.00739736 seconds
+./thread_overhead 16;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Thread pool overhead time (with 12 threads): 0.00791461 seconds
+./thread_overhead 32;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Thread pool overhead time (with 12 threads): 0.00769763 seconds
+./thread_overhead 64;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Thread pool overhead time (with 12 threads): 0.00833969 seconds
+Running mixed_workload:
+./mixed_workload 1;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Generated large random number file.
+Time passed for parallel sorting: 1132763 ms
+Merged all sorted chunks into final sorted file.
+./mixed_workload 4;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Generated large random number file.
+Time passed for parallel sorting: 283012 ms
+Merged all sorted chunks into final sorted file.
+./mixed_workload 8;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Generated large random number file.
+Time passed for parallel sorting: 144279 ms
+Merged all sorted chunks into final sorted file.
+./mixed_workload 16;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Generated large random number file.
+Time passed for parallel sorting: 74926 ms
+Merged all sorted chunks into final sorted file.
+./mixed_workload 32;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Generated large random number file.
+Time passed for parallel sorting: 72883 ms
+Merged all sorted chunks into final sorted file.
+./mixed_workload 64;rm -f chunk_*;rm -f file_*;rm -f large_random_numbers.txt;rm -f sorted_large_random_numbers.txt;rm -f output_file.dat;rm -f test*
+Generated large random number file.
+Time passed for parallel sorting: 71263 ms
+Merged all sorted chunks into final sorted file.
