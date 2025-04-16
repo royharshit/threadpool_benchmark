@@ -27,12 +27,11 @@ double calculate_thread_pool_overhead(size_t num_threads) {
     return duration.count(); // Returns the time in seconds
 }
 
-int main() {
-    size_t num_threads = 50;  // Number of threads in the thread pool
+int main(int argc, char* argv[]) {
 
     // Calculate the thread pool overhead and output the result
-    double overhead_time = calculate_thread_pool_overhead(num_threads);
-    std::cout << "Thread pool overhead time (with " << num_threads << " threads): " 
+    double overhead_time = calculate_thread_pool_overhead(std::atoi(argv[1]));
+    std::cout << "Thread pool overhead time (with " << std::atoi(argv[1]) << " threads): " 
               << overhead_time << " seconds" << std::endl;
 
     return 0;
