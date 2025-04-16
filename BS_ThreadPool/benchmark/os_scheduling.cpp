@@ -69,7 +69,7 @@ void io_bound_task(int id, const std::string& filename) {
 }
 
 
-int main() {
+int main(int argc, char* argv[]) {
     const int num_tasks = 10;
     const int half_cpu_bound = num_tasks / 2;
     const int half_io_bound = num_tasks / 2;
@@ -90,9 +90,7 @@ int main() {
         return 1;
     }
 
-    // Step 2: Create thread pool
-    int num_threads = 5;
-    BS::thread_pool pool(num_threads);
+    BS::thread_pool pool(std::atoi(argv[1]));
 
     // Step 3: Submit CPU-bound and I/O-bound tasks to the pool
     std::vector<std::future<void>> futures;
