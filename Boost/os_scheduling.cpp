@@ -67,7 +67,7 @@ void io_bound_task(int id, const std::string& filename) {
            duration.count());
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     const int num_tasks = 10;
     const int half_cpu_bound = num_tasks / 2;
     const int half_io_bound = num_tasks / 2;
@@ -89,8 +89,7 @@ int main() {
     }
 
     // Step 2: Define the number of threads in the task arena
-    int num_threads = 5; // Adjust the number of threads here
-    boost::asio::thread_pool pool(num_threads);  
+    boost::asio::thread_pool pool(std::atoi(argv[1]));  
 
     for (int i = 0; i < half_io_bound; ++i) {
         boost::asio::post(pool, [i, filename]() { io_bound_task(i, filename); });
